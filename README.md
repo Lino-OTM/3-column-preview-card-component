@@ -6,7 +6,7 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 ![](/3-column-preview-card-component-main.jpg)
 
-Link:
+Link: https://lino-otm.github.io/3-column-preview-card-component/
 
 ### Built with:
 
