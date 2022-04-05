@@ -1,0 +1,76 @@
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.cards-wrapper {
+  margin: 50px auto;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 335px;
+}
+.cards-wrapper .car-card__title {
+  color: #f2f2f2;
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 2.4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.cards-wrapper .car-card__text {
+  color: rgba(255, 255, 255, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+  line-height: 25px;
+  font-weight: 400;
+}
+.cards-wrapper .car-card__button {
+  background-color: #f2f2f2;
+  font-family: "Lexend Deca", sans-serif;
+  padding: 15px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+}
+.cards-wrapper .car-card--orange {
+  background-color: #e38826;
+}
+.cards-wrapper .car-card--orange .car-card__button--orange {
+  color: #e38826;
+}
+.cards-wrapper .car-card--orange .car-card__button--orange:hover {
+  background-color: #e38826;
+  color: #fff;
+  border: 1px solid #fff;
+}
+.cards-wrapper .car-card--blue {
+  background-color: #006970;
+}
+.cards-wrapper .car-card--blue .car-card__button--blue {
+  color: #006970;
+}
+.cards-wrapper .car-card--blue .car-card__button--blue:hover {
+  background-color: #006970;
+  color: #fff;
+  border: 1px solid #fff;
+}
+.cards-wrapper .car-card--green {
+  background-color: #004241;
+}
+.cards-wrapper .car-card--green .car-card__button--green {
+  color: #004241;
+}
+.cards-wrapper .car-card--green .car-card__button--green:hover {
+  background-color: #004241;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+/*# sourceMappingURL=style.css.map */

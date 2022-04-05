@@ -1,0 +1,80 @@
+@use "colors";
+
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.cards-wrapper {
+  margin: 50px auto;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 335px;
+
+  .car-card__title {
+    color: colors.$bg-headings-buttons;
+    font-family: "Big Shoulders Display", cursive;
+    font-size: 2.4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .car-card__text {
+    color: colors.$paragraphs;
+    font-family: "Lexend Deca", sans-serif;
+    line-height: 25px;
+    font-weight: 400;
+  }
+  .car-card__button {
+    background-color: colors.$bg-headings-buttons;
+    font-family: "Lexend Deca", sans-serif;
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+  }
+
+  .car-card--orange {
+    background-color: colors.$brightOrange;
+
+    .car-card__button--orange {
+      color: colors.$brightOrange;
+    }
+    .car-card__button--orange:hover {
+      background-color: colors.$brightOrange;
+      color: #fff;
+      border: 1px solid #fff;
+    }
+  }
+  .car-card--blue {
+    background-color: colors.$darkCyan;
+
+    .car-card__button--blue {
+      color: colors.$darkCyan;
+    }
+    .car-card__button--blue:hover {
+      background-color: colors.$darkCyan;
+      color: #fff;
+      border: 1px solid #fff;
+    }
+  }
+  .car-card--green {
+    background-color: colors.$verydarkCyan;
+
+    .car-card__button--green {
+      color: colors.$verydarkCyan;
+    }
+    .car-card__button--green:hover {
+      background-color: colors.$verydarkCyan;
+      color: #fff;
+      border: 1px solid #fff;
+    }
+  }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

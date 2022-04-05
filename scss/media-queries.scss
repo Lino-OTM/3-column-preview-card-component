@@ -1,0 +1,27 @@
+@media (min-width: 808px) {
+  body {
+    height: 100vh;
+    align-items: center;
+  }
+  .cards-wrapper {
+    width: 1000px;
+    height: 530px;
+    display: flex;
+
+    .car-card {
+      padding: 45px 56px 60px;
+    }
+  }
+  .car-card__text {
+    margin-bottom: 90px;
+  }
+}
+
+@media (max-width: 807px) {
+  .car-card__text {
+    margin-bottom: 40px;
+  }
+  .car-card {
+    padding: 45px 47px 60px;
+  }
+}
